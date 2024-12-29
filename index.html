@@ -269,16 +269,16 @@
 
         <!-- Footer Section Start -->
         <footer class="bg-gradient-to-r from-orange-btn/10 to-red-btn/10 py-16 text-base-content">
-            <div class="container mx-auto flex justify-between pt-10">
-                <img src="assets/images/cup.png" alt="Logo">
+            <div class="container mx-auto flex flex-col sm:flex-row justify-between gap-8 px-4 pt-10">
+                <img class="w-[62px] sm:w-auto" src="assets/images/cup.png" alt="Logo">
 
-                <div>
-                    <span class="text-xl font-medium text-dark-2 mr-8">Ready to get strated?</span>
-                    <button class="btn bg-gradient-to-r from-orange-btn to-red-btn hover:from-red-btn hover:to-orange-btn border-none font-bold text-xl text-white h-auto px-6 py-4">Get Started</button>
+                <div class="space-y-5">
+                    <span class="text-lg sm:text-xl font-medium text-dark-2 mr-8">Ready to get strated?</span>
+                    <button class="btn bg-gradient-to-r from-orange-btn to-red-btn hover:from-red-btn hover:to-orange-btn border-none font-bold text-lg sm:text-xl text-white h-auto px-6 py-4">Get Started</button>
                 </div>
             </div>
 
-            <div class="container mx-auto footer mt-20 mb-10">
+            <div class="container mx-auto footer mt-20 mb-16 px-4">
                 <nav class="space-y-2">
                     <h6 class="text-xl text-dark-1 font-semibold">Quick Links</h6>
                     <a class="link no-underline text-base text-dark-3 font-medium hover:text-red-btn/80">Home</a>
@@ -303,12 +303,31 @@
     
                 <form>
                     <h6 class="text-2xl font-semibold">Subscribe to our newsletter</h6>
-                    <fieldset class="form-control w-80">
+
+                    <fieldset class="form-control my-8">
                         <div class="join">
-                            <input type="text" placeholder="Email address" class="input bg-transparent border-b-2 border-b-dark-2/70 rounded-none" />
-                            <button class="btn w-12 bg-gradient-to-r from-orange-btn to-red-btn hover:from-red-btn hover:to-orange-btn border-none rounded-full text-white"><i class="fa-solid fa-chevron-right"></i></button>
+                            <input type="text" placeholder="Email address" class="bg-transparent border-b-2 border-b-dark-2/70 rounded-none focus:outline-none" />
+                            
+                            <button class="btn w-12 bg-gradient-to-r from-orange-btn to-red-btn hover:from-red-btn hover:to-orange-btn border-none rounded-full text-white">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
                         </div>
                     </fieldset>
+
+                    <div class="grid grid-flow-col gap-7">
+                        <!-- Facebook Icon -->
+                        <a href="" class="text-xl text-dark-2">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <!-- Twitter Icon -->
+                        <a href="" class="text-xl text-dark-2">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <!-- Instagram Icon -->
+                        <a href="" class="text-xl text-dark-2">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </div>
                 </form>
             </div>
 
