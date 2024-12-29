@@ -122,22 +122,22 @@
             <section class="my-28 px-4 grid grid-cols-1 lg:grid-cols-2 gap-14">
                 <!-- Gradient Grids -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
-                    <div class="bg-gradient-to-r from-red-btn/10 to-orange-btn/10 rounded-lg h-36"></div>
+                    <div class="bg-gradient-to-r from-red-btn/10 to-orange-btn/10 rounded-xl h-36"></div>
                     
-                    <div class="py-12 row-span-2 bg-lemon-tea place-items-center place-content-center rounded-lg">
+                    <div class="py-12 row-span-2 bg-lemon-tea place-items-center place-content-center rounded-xl">
                         <img src="assets/images/fresh-1.png" alt="Bubble Tea">
                     </div>
 
-                    <div class="py-12 row-span-2 bg-green-tea  place-items-center place-content-center rounded-lg">
+                    <div class="py-12 row-span-2 bg-green-tea  place-items-center place-content-center rounded-xl">
                         <img src="assets/images/fresh-2.png" alt="Bubble Tea">
                     </div>
 
-                    <div class="bg-gradient-to-r from-dark-9 to-white rounded-lg h-36"></div>
+                    <div class="bg-gradient-to-r from-dark-9 to-white rounded-xl h-36"></div>
                 </div>
 
                 <!-- Tea Description -->
                 <div class="space-y-7">
-                    <h2 class="font-extrabold text-5xl leading-snug 2xl:mr-20">Great Tea, Freshly Presented</h2>
+                    <h2 class="font-extrabold text-4xl lg:text-5xl leading-snug 2xl:mr-20">Great Tea, Freshly Presented</h2>
                     <p class="font-medium text-dark-3 leading-7">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
 
                     <div class="space-y-3">
@@ -155,16 +155,31 @@
 
 
             <!-- Super Client Section Start -->
-            <section class="bg-gradient-to-r from-orange-btn to-red-btn flex flex-col lg:flex-row gap-16 items-center my-28 rounded-xl px-16 py-24">
-                <div class="w-2/5">
-                    <h2 class="text-5xl font-extrabold text-dark-6 leading-snug">Meet Our Super Clients</h2>
+            <section class="relative bg-gradient-to-r from-orange-btn to-red-btn flex flex-col xl:flex-row gap-20 xl:gap-10 xl:items-center my-20 md:my-36 rounded-xl mx-4 px-4 pt-10 pb-14 sm:p-12 md:p-20 2xl:px-32">
+                <!-- Meet Client Part -->
+                <div class="xl:w-2/5">
+                    <h2 class="text-4xl lg:text-5xl font-extrabold text-dark-6 leading-snug">Meet Our Super Clients</h2>
                     <p class="mt-7 mb-10 text-dark-6 leading-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                    <button class="btn font-bold text-lg bg-white text-red-btn">Show All</button>
+                    <button class="btn font-bold text-base bg-white text-red-btn hover:bg-gradient-to-r hover:from-red-btn/80 hover:to-orange-btn/90 border-none hover:text-white h-auto px-6 py-4">Show All</button>
+
+                    <img class="absolute hidden sm:block bottom-0 md:left-56" src="assets/images/bg_cup.png" alt="">
                 </div>
 
-                <div>
-                    <!-- review -->
-                     <div class="p-12 rounded-lg bg-white relative">
+                <!-- Review Container -->
+                <div class="relative xl:w-3/5 flex flex-col items-end">
+                    <!-- Next review -->
+                    <div class="relative bg-white opacity-40 mb-16 p-9 sm:p-12 rounded-lg w-3/4 sm:w-[440px]">
+                        <div class="absolute bg-white p-1 rounded-full -left-6 -top-6">
+                            <img src="assets/images/client.png" alt="client image">
+                        </div>
+
+                        <p class="text-dark-3 leading-7 mb-6">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                        <h4 class="font-bold mb-1">Ilham Yuda</h4>
+                        <p class="font-medium text-[#5D5A6F]">Businessman</p>
+                    </div>
+
+                    <!-- Current review -->
+                    <div class="absolute top-40 left-6 md:left-16 lg:left-32 2xl:left-48 z-10 bg-white p-9 sm:p-12 rounded-lg w-3/4 sm:w-[440px]">
                         <div class="absolute bg-white p-1 rounded-full -left-6 -top-6">
                             <img src="assets/images/client.png" alt="client image">
                         </div>
@@ -173,8 +188,19 @@
                         <h4 class="font-bold mb-1">Ilham Yuda</h4>
                         <p class="font-medium text-[#5D5A6F]">Businessman</p>
 
-                        <img class="absolute right-8 bottom-8" src="assets/images/circles.png" alt="">
-                     </div>
+                        <img class="absolute right-5 sm:right-8 bottom-5 sm:bottom-8" src="assets/images/circles.png" alt="">
+                    </div>
+
+                    <!-- Previous review -->
+                    <div class="relative bg-white opacity-40 p-9 sm:p-12 rounded-lg w-3/4 sm:w-[440px]">
+                        <div class="absolute bg-white p-1 rounded-full -left-6 -top-6">
+                            <img src="assets/images/client.png" alt="client image">
+                        </div>
+
+                        <p class="text-dark-3 leading-7 mb-6">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                        <h4 class="font-bold mb-1">Ilham Yuda</h4>
+                        <p class="font-medium text-[#5D5A6F]">Businessman</p>
+                    </div>
                 </div>
             </section>
             <!-- Super Client Section End -->
